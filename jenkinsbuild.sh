@@ -1,8 +1,7 @@
 #!/bin/bash
 
-#Author: Edem, June 13 2022
+#Author: Arielle Paana, March 27th 2023
 
-# Review Date: June 18, 2020
 
 sudo yum install java-1.8.0-openjdk-devel -y
 if
@@ -18,7 +17,7 @@ sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenk
 if
    [ $? -ne 0 ]
    then
-       sudo yum install wget -yum
+       sudo yum install wget -y
        if
         [ $? -ne 0 ]
         then

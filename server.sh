@@ -1,8 +1,8 @@
 #!/bin/bash
 
-## Author : Edem, edemzotsi@gmail.com
+## Author : Arielle Paana
 
-#Date : Monday, 13 2022
+#Date : March 27th 2023
 
 #......this script is to create the server using the Vagrantfile
 
